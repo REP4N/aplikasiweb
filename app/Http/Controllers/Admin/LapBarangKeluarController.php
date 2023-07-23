@@ -8,7 +8,7 @@ use App\Models\Admin\WebModel;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Yajra\DataTables\DataTables;
-use PDF;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class LapBarangKeluarController extends Controller
 {
